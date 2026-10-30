@@ -235,7 +235,7 @@ function assembleStyles() {
 				// eslint-disable-next-line no-bitwise
 				let result = 30 + ((Math.round(blue) << 2) | (Math.round(green) << 1) | Math.round(red));
 
-				if (value === 2) {
+				if (Math.round(value) === 2) {
 					result += 60;
 				}
 
